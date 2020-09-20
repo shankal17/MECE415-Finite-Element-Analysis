@@ -150,12 +150,12 @@ for i = 1:length(U_label)
 end
 dotSize = 25;
 
-%plot structures
+%prepare plots
 pbaspect([1 1 1])
-hold on
 xlim([-10, 200])
 ylim([-10, 200])
 grid()
+hold on
 
 %plot nodes just for fun
 scatter(node_coordinates(:,1),node_coordinates(:,2),dotSize,[1 0 0],'filled')
