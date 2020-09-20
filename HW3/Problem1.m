@@ -15,10 +15,10 @@ connect = [1 3;
            4 5]; %connectivity table defining 2d trusses
 
 node_coordinates = [0 0;
-          0 96;
-          96 96;
-          96 151.4
-          192 96]; %coordinate table of node locations
+                    0 96;
+                    96 96;
+                    96 151.4
+                    192 96]; %coordinate table of node locations
       
 stationary_DOF = [1 2 3 4]; %vector of constrained DOF numbers
 F = [0 0 0 0 0 -500]'; %left DOFs 1-4 out since those are unknown reactions

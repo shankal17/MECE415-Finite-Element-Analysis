@@ -1,4 +1,4 @@
 *.ipynb_checkpoints
 *.asv
 *.html
-/html/*
+HW3/html/*
